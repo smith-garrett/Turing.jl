@@ -105,6 +105,8 @@ export  @model,                 # modelling
         CSMC,
         PG,
 
+        ABC,
+
         vi,                     # variational inference
         ADVI,
 
