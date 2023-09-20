@@ -11,7 +11,8 @@ using DynamicPPL: Metadata, VarInfo, TypedVarInfo,
     DefaultContext, PriorContext,
     LikelihoodContext, set_flag!, unset_flag!,
     getspace, inspace
-using Distributions, Libtask, Bijectors
+using Distributions, Libtask
+using Bijectors: Bijectors, logabsdetjac, with_logabsdet_jacobian, inverse
 using DistributionsAD: VectorOfMultivariate
 using LinearAlgebra
 using ..Turing: PROGRESS, Turing
